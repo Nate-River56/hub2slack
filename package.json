@@ -1,0 +1,40 @@
+{
+  "name": "hub2slack",
+  "version": "0.0.1",
+  "description": "Post GitHub Status to Slack via Amazon SNS and Lambda",
+  "keywords": [
+    "chat",
+    "slack",
+    "aws-sns",
+    "aws-lambda"
+  ],
+  "homepage": "https://github.com/cy-kosuke-ono/hub2slack",
+  "author": {
+    "name": "Nate-River56"
+  },
+  "main": "index.js",
+  "engine": {
+    "node": ">= 4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Nate-River56/hub2slack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nate-River56/hub2slack/issue"
+  },
+  "scripts": {
+    "package":"zip -r hub2slack.zip index.js config/* github/* node_modules/"
+  },
+  "author": "cy-kosuke-ono",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://github.com/Nate-River56/hub2slack/blob/master/LICENSE"
+    }
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}
