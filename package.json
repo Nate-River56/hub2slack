@@ -24,7 +24,7 @@
     "url": "https://github.com/Nate-River56/hub2slack/issue"
   },
   "scripts": {
-    "package":"zip -r hub2slack.zip index.js config/* github/* node_modules/"
+    "package":"zip -r hub2slack.zip index.js comments.js node_modules/"
   },
   "author": "cy-kosuke-ono",
   "licenses": [
